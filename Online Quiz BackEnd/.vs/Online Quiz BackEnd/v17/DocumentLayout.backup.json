@@ -1,0 +1,1190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|d:\\aiub\\semester 11\\final\\advanced programming with .net\\lab\\project\\online quiz backend\\presentationlayer\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\iquizspecificfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\iquizspecificfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\studentquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\studentquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\studentquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\facultyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\facultyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\models\\studentquizupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\models\\studentquizupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\studentquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\studentquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\authentic\\loggedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\authentic\\loggedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\authentic\\isfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\authentic\\isfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\icommonrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\icommonrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\studentquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\istudentquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\istudentquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\ioptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\ioptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\ispecificrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\ispecificrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\optionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\optionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\models\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\models\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509261016282_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509261016282_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\interfaces\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\enums\\quetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\enums\\quetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509210829162_updatequiztable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509210829162_updatequiztable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\tables\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tables\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509210645440_updatequestiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509210645440_updatequestiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Questions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Quizzes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509201344431_updatestdquz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509201344431_updatestdquz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509201342011_updatequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509201342011_updatequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\202509201254176_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202509201254176_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB88D6D-2B22-4FA6-87E9-0E9C427EDD99}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\createmap\\createmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\createmap\\createmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Tokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\presentationlayer\\models\\userlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7802BCF-FF92-4ED3-AEB8-8B5C862161D1}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\models\\userlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\dto\\facultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\facultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\businesslogiclayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE64172-907A-4874-8A2E-3445491C480B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\QuizController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwHUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T04:29:56.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\QuestionController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:18:43.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentQuizController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\StudentQuizController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\StudentQuizController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\StudentQuizController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\StudentQuizController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:08:10.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\QuizService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\QuizService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\QuizService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\QuizService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T04:17:13.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentQuizService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\StudentQuizService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\StudentQuizService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\StudentQuizService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\StudentQuizService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAawC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:12:23.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\QuizRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\QuizRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\QuizRepo.cs*",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\QuizRepo.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwFoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T04:51:47.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IQuizSpecificFeature.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IQuizSpecificFeature.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IQuizSpecificFeature.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IQuizSpecificFeature.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IQuizSpecificFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T03:56:44.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessFactory.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\DataAccessFactory.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessFactory.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAlwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:48:30.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Quiz.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Quiz.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Quiz.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Quiz.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwB8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:29:21.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OptionController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\OptionController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\OptionController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\OptionController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\OptionController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwDsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:38:55.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T12:56:29.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FacultyController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\FacultyController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\FacultyController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\FacultyController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\FacultyController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T05:33:00.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:27:40.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T05:42:50.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\StudentService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\StudentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\StudentService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:47:33.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FacultyService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\FacultyService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\FacultyService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\FacultyService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\FacultyService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:47:15.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FacultyRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\FacultyRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\FacultyRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\FacultyRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\FacultyRepo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T05:34:28.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "studentquizUpdate.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\studentquizUpdate.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Models\\studentquizUpdate.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\studentquizUpdate.cs",
+              "RelativeToolTip": "PresentationLayer\\Models\\studentquizUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:07:54.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentQuizRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\StudentQuizRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\StudentQuizRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\StudentQuizRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\StudentQuizRepo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:06:13.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoggedIn.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Authentic\\LoggedIn.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Authentic\\LoggedIn.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Authentic\\LoggedIn.cs",
+              "RelativeToolTip": "PresentationLayer\\Authentic\\LoggedIn.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:30:47.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IsFaculty.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Authentic\\IsFaculty.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Authentic\\IsFaculty.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Authentic\\IsFaculty.cs",
+              "RelativeToolTip": "PresentationLayer\\Authentic\\IsFaculty.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewCYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:24:43.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\QuestionService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\QuestionService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\QuestionService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:57:43.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICommonRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\ICommonRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\ICommonRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\ICommonRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\ICommonRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:23:34.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IStudentQuizRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IStudentQuizRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IStudentQuizRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IStudentQuizRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IStudentQuizRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T08:15:31.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentQuizDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\StudentQuizDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentQuizDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\StudentQuizDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentQuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:13:16.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOptionRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IOptionRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IOptionRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IOptionRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IOptionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:49:44.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IQuestionRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IQuestionRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IQuestionRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IQuestionRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IQuestionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:45:44.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ISpecificRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\ISpecificRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\ISpecificRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\ISpecificRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\ISpecificRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:04:37.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OptionService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\OptionService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\OptionService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\OptionService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\OptionService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:14:11.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OptionRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\OptionRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\OptionRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\OptionRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\OptionRepo.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:05:41.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\QuizDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\QuizDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\QuizDTO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T04:18:16.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Question.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Question.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Question.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:11:31.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Student.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Student.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Student.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:26:53.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\AuthRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\AuthRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\AuthRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\AuthRepo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T03:56:44.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentQuiz.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\StudentQuiz.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\StudentQuiz.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\StudentQuiz.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\StudentQuiz.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:14:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "studentquiz.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\studentquiz.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Models\\studentquiz.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\studentquiz.cs",
+              "RelativeToolTip": "PresentationLayer\\Models\\studentquiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:10:20.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:39:48.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\packages.config",
+              "RelativeDocumentMoniker": "PresentationLayer\\packages.config",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\packages.config",
+              "RelativeToolTip": "PresentationLayer\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-26T10:17:43.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "202509261016282_update1.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509261016282_update1.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509261016282_update1.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509261016282_update1.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509261016282_update1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:16:32.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\CourseService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\CourseService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\CourseService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:08:31.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OptionDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\OptionDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\OptionDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\OptionDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\OptionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:13:07.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\AuthServices.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\AuthServices.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\AuthServices.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwF8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T03:59:40.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "QuestionRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\QuestionRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\QuestionRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\QuestionRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\QuestionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:44:10.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IAuthRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IAuthRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IAuthRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Interfaces\\IAuthRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IAuthRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:09:23.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "QuestionDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\QuestionDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\QuestionDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\QuestionDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\QuestionDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:19:37.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Option.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Option.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Option.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Option.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Option.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:52:59.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "QueTypeEnum.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Enums\\QueTypeEnum.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Enums\\QueTypeEnum.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Enums\\QueTypeEnum.cs",
+              "RelativeToolTip": "DataAccessLayer\\Enums\\QueTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:57:13.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "202509210829162_UpdateQuizTable.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509210829162_UpdateQuizTable.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509210829162_UpdateQuizTable.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509210829162_UpdateQuizTable.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509210829162_UpdateQuizTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:29:22.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\User.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\User.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\User.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:15:47.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Token.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Token.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Token.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Token.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:12:03.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Faculty.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Faculty.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Faculty.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:35:41.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Course.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Tables\\Course.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Tables\\Course.cs",
+              "RelativeToolTip": "DataAccessLayer\\Tables\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:32:06.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "202509210645440_UpdateQuestionTable.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509210645440_UpdateQuestionTable.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509210645440_UpdateQuestionTable.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509210645440_UpdateQuestionTable.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509210645440_UpdateQuestionTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:45:47.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\UserService.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:47:39.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CourseRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\CourseRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\CourseRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\CourseRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\CourseRepo.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwC4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:39:27.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\StudentRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\StudentRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\StudentRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T05:20:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\UserRepo.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Repository\\UserRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\UserRepo.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:47:38.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "dbo.Quizzes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Quizzes.sql",
+              "ToolTip": "dbo.Quizzes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T17:09:27.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "dbo.Questions.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Questions.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Questions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T17:12:04.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "202509201344431_updatestdQuz.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201344431_updatestdQuz.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509201344431_updatestdQuz.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201344431_updatestdQuz.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509201344431_updatestdQuz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:44:47.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "202509201342011_updateQuiz.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201342011_updateQuiz.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509201342011_updateQuiz.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201342011_updateQuiz.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509201342011_updateQuiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T13:42:07.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "dbo.Courses.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Courses.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T13:25:24.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "202509201254176_Init.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201254176_Init.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202509201254176_Init.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\202509201254176_Init.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202509201254176_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T12:54:22.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T12:54:02.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T12:54:49.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "PresentationLayer\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:52:22.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateMap.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\CreateMap\\CreateMap.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\CreateMap\\CreateMap.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\CreateMap\\CreateMap.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\CreateMap\\CreateMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:25:11.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "dbo.Tokens.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Tokens.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_6K06NP6_SQLEXPRESS/OnlineQuiz/True/SqlTable/dbo.Tokens.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-20T02:31:03.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:41:19.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\TokenDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\TokenDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\TokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T04:02:16.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UserLog.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\UserLog.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Models\\UserLog.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\PresentationLayer\\Models\\UserLog.cs",
+              "RelativeToolTip": "PresentationLayer\\Models\\UserLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T05:43:11.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\CourseDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\CourseDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T05:09:41.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FacultyDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\FacultyDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\FacultyDTO.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\DTO\\FacultyDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\FacultyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T05:33:21.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Class1.cs",
+              "ToolTip": "D:\\AIUB\\SEMESTER 11\\FINAL\\ADVANCED PROGRAMMING WITH .NET\\LAB\\Project\\Online Quiz BackEnd\\BusinessLogicLayer\\Class1.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:22:50.886Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
