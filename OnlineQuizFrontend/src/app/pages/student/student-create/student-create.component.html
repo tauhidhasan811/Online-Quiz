@@ -1,0 +1,22 @@
+<h1 class="text-success text-center mt-2">Faculty Registration</h1>
+<form [formGroup]="StudentData" (ngSubmit)="onSubmit()">
+    <table>
+        <tr>
+            <td>Name </td>
+            <td><input type="text" name="Name" formControlName="Name"></td>
+        </tr>
+        <tr>
+            <td>UserName </td>
+            <td><input type="text" name="UserName" formControlName="UserName"></td>
+        </tr>
+        <tr>
+            <td>Email </td>
+            <td><input type="text" name="Email" formControlName="Email"></td>
+        </tr>
+        <tr>
+            <td>Password </td>
+            <td><input type="text" name="Password" formControlName="Password"></td>
+        </tr>
+    </table>
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>

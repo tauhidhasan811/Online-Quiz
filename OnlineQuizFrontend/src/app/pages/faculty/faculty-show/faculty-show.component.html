@@ -1,0 +1,16 @@
+
+<table class="table table-border">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor=" let faculty of faculties">
+        <td>{{faculty.Id}}</td>
+        <td>{{faculty.Name}}</td>
+        <td>{{faculty.UserName}}</td>
+        <td>{{faculty.Email}}</td>
+    </tr>
+</table>
+{{status}}

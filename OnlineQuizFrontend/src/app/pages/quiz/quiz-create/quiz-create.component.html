@@ -1,0 +1,85 @@
+<h3 class="text-success text-center mt-2">Quiz Information</h3>
+<!--
+<form [formGroup]="QuizData" (ngSubmit)="OnSubmit()">
+    <table>
+        <tr>
+            <td>Title</td>
+            <td><input type="text" Name="Title" formControlName="Title"></td>
+        </tr>
+        <tr>
+            <td>TotalMark</td>
+            <td><input type="number" Name="TotalMark" formControlName="TotalMark"></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input type="date" Name="Date" formControlName="Date"></td>
+        </tr>
+        <tr>
+            <td>Duration</td>
+            <td><input type="number" Name="Duration" formControlName="Duration"></td>
+        </tr>
+        <tr>
+            <td>StartTime</td>
+            <td><input type="time" Name="StartTime" formControlName="StartTime"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="CourseId">Choose course:</label>
+                <select id="CourseId" formControlName="CourseId">
+                <option *ngFor="let course of courses" [value]="course.Id">{{ course.Name }}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" class="btn btn-primary" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+
+-->
+
+
+<form [formGroup]="QuizData" (ngSubmit)="OnSubmit()" class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6"> <!-- centered form with good width -->
+
+      <div class="mb-3">
+        <label for="Title" class="form-label">Title</label>
+        <input type="text" id="Title" name="Title" formControlName="Title" class="form-control" placeholder="Enter title">
+      </div>
+
+      <div class="mb-3">
+        <label for="TotalMark" class="form-label">Total Mark</label>
+        <input type="number" id="TotalMark" name="TotalMark" formControlName="TotalMark" class="form-control" placeholder="Enter total marks">
+      </div>
+
+      <div class="mb-3">
+        <label for="Date" class="form-label">Date</label>
+        <input type="date" id="Date" name="Date" formControlName="Date" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="Duration" class="form-label">Duration (minutes)</label>
+        <input type="number" id="Duration" name="Duration" formControlName="Duration" class="form-control" placeholder="Enter duration">
+      </div>
+
+      <div class="mb-3">
+        <label for="StartTime" class="form-label">Start Time</label>
+        <input type="time" id="StartTime" name="StartTime" formControlName="StartTime" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="CourseId" class="form-label">Choose Course</label>
+        <select id="CourseId" formControlName="CourseId" class="form-select">
+          <option *ngFor="let course of courses" [value]="course.Id">{{ course.Name }}</option>
+        </select>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary px-4">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>
+

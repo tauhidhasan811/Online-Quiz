@@ -1,0 +1,42 @@
+<p>quiz-details works!</p>
+
+
+<div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6"> <!-- centered form with good width -->
+
+      <div class="mb-3">
+        <p> Title: {{quiz.Title}}</p>
+      </div>
+
+      <div class="mb-3">
+        <p> Total Mark: {{quiz.TotalMark}}</p>
+      </div>
+
+      <div class="mb-3">
+        <p> Date: {{quiz.Date | date:'dd/MM/yyyy'}}</p>
+      </div>
+
+      <div class="mb-3">
+        <p> Duration: {{quiz.Duration}}</p>
+      </div>
+
+      <div class="mb-3">
+        <p>Start Time: {{ quiz.StartTime | date:'hh:mm:ss a' }}</p>
+
+      </div>
+      <div class="mb-3">
+        <p> End Time: {{quiz.EndTime | date:'hh:mm:ss a'}}</p>
+      </div>
+      <div class="mb-3">
+        <p> Total Attented : {{quiz.Count}}</p>
+      </div>
+    </div>
+    <div *ngIf="usertype === 'Student'">
+      <button type="button" class="btn btn-primary" (click)="startQuiz()">Start Quiz</button>
+    </div>
+</div>
+
+<div *ngIf="usertype === 'Faculty'">
+  <app-question-show [quizid]="quizid"></app-question-show>
+</div>
+

@@ -1,0 +1,77 @@
+<p>question-show works!</p>
+
+<div *ngIf="usertype == 'Faculty'; else studentView">
+  <div *ngFor="let question of questions; let i = index" class="mb-3">
+    <div class="card">
+      <div class="card-header">
+        Question {{ i + 1 }}
+      </div>
+
+      <div class="card-body">
+        <h5 class="card-title">{{ question.Title }}</h5>
+        <button type="button" class="btn btn-secondary" (click)="editQuestion(question.Id)">Update</button>
+        <div *ngIf="editquestion">
+          <app-question-update [questionid]="question.Id"></app-question-update>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-3">
+            <ng-container *ngFor="let optionArr of options">
+              <ng-container *ngFor="let opt of optionArr">
+                <div *ngIf="question.Id == opt.QuestionId">
+                  <label class="form-check-label">{{ opt.Text }}</label>
+                  <button type="button"  (click)="editOption(opt.Id)">Edit</button>
+                  <div *ngIf="editoption">
+                    <form [formGroup]="UpdateOptionFormGroup" (ngSubmit)="updateOption(editiedOptionData)">
+                      <div class="mb-3">
+                        <label for="Text" class="form-label">Option Text</label>
+                        <input type="text" class="form-control" id="Text" formControlName="Text" [value]="editiedOptionData?.Text" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="IsAnswer" class="form-label">Is Answer</label>
+                        <input type="checkbox" class="form-check-input" id="IsAnswer" formControlName="IsAnswer" />
+                      </div>
+                      <button type="submit" class="btn btn-primary">Update Option</button>
+                    </form>
+                  </div>
+                </div>
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Student view -->
+<ng-template #studentView>
+  <div *ngFor="let question of questions; let i = index" class="mb-3">
+    <div class="card">
+      <div class="card-header">
+        Question {{ i + 1 }}
+      </div>
+
+      <div class="card-body">
+        <h5 class="card-title">{{ question.Title }}</h5>
+        <div class="row g-2">
+          <div class="col-md-3">
+            <ng-container *ngFor="let optionArr of options">
+              <ng-container *ngFor="let opt of optionArr">
+                <div *ngIf="question.Id == opt.QuestionId">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" 
+                    [name]="'question' + question.Id" [value]="opt.Id"
+                    (change)="onSelectAnswer(question.Id, opt.Id)">
+                    <label class="form-check-label">{{ opt.Text }}</label>
+                  </div>
+                </div>
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div> <button type="button" class="btn btn-primary" (click)="submitAnswers()">Submit</button></div>
+</ng-template>
+

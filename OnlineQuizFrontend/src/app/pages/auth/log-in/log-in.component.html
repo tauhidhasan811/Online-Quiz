@@ -1,0 +1,49 @@
+<!--
+<p>log-in works!</p>
+<form [formGroup]="userdata" (ngSubmit)="OnSubmit()">
+    <table>
+        <tr>
+            <td>User Name</td>
+            <td><input type="text" formControlName="UserName"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text" formControlName="Password"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" class="btn btn-primary">
+            </td>
+        </tr>
+    </table>
+</form>
+-->
+<h1 class="text-success text-center mt-2">Online Quiz</h1>
+    <div class="container mt-3">
+        <div class="row justify-content-center text-lg-start">
+            <div class="col-12 col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                        <form [formGroup]="userdata" (ngSubmit)="OnSubmit()">
+                            <div class="form-group">
+                                <label>
+                                    User Name
+                                </label>
+                                <input type="text" formControlName="UserName" class="form-control " placeholder="username">
+                            </div>
+                            <div class="form-group mt-2">
+                                <label >
+                                    Password
+                                </label>
+                               <input type="text" formControlName="Password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <input type="submit" class="btn btn-danger" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

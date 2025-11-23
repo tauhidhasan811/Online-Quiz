@@ -1,0 +1,19 @@
+<p>quiz-show-student works!</p>
+<table class="table table-border">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Total Mark</th>
+        <th>Duration</th>
+        <th>Details</th>
+        <th *ngIf="usertype === 'Faculty'">Questions</th>
+
+    </tr>  
+    <tr *ngFor="let quiz of quizes">
+        <td>{{quiz.Id}}</td>
+        <td>{{quiz.Title}}</td>
+        <td>{{quiz.TotalMark}}</td>
+        <td>{{quiz.Duration}}</td>
+        <td><a [routerLink]="['/quiz-details', quiz.Id]" class="btn btn-primary">View Details</a></td>
+    </tr>  
+</table>

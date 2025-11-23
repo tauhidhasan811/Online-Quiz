@@ -1,0 +1,13 @@
+<form [formGroup]="coursedata" (ngSubmit)="onSubmit()">
+    <table>
+        <tr>
+            <td>Name </td>
+            <td><input type="text" name="Name" formControlName="Name"></td>
+        </tr>
+        <tr>
+            <td>Course Code </td>
+            <td><input type="text" name="CourseCode" formControlName="CourseCode"></td>
+        </tr>
+    </table>
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>

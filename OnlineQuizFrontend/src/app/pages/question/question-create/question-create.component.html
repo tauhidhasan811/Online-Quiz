@@ -1,0 +1,178 @@
+<!-- Question List
+<div class="card mb-3">
+    <div *ngFor="let question of questions">
+        <div class="card-header">Question 1</div>
+        <div class="card-body">
+            <h5 class="card-title">{{question.Title}}</h5>
+
+            <div class="row g-2">
+            <div class="col-md-3">
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" id="option1">
+                <!--<label class="form-check-label" for="option1">{{question.Option1}}</label   -->
+ <!--               </div>
+            </div>
+
+            <div class="col-md-3">
+    
+            </div>
+        </div>
+  </div>
+</div>
+
+ -->
+
+    
+<!--
+<h3 class="text-success text-center mt-2">Question</h3>
+<form [formGroup]="QuestionData">
+    <ol>
+        <li >
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Enter Question" formControlName="Title">
+                <div class="row g-2"> 
+                    <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="Option 1" formControlName="Option1">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Option 2" formControlName="Option2">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Option 3" formControlName="Option3">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Option 4" formControlName="Option4">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Correct Answer" formControlName="CorrectOption">
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ol>
+    <button type="button"class="btn btn-primary me-2" (click)="addquestion()">Add</button>
+    <button class="btn btn-danger" (click)="submit()">Submit</button>
+</form>
+-->
+
+<!-- Question Form 
+<h3 class="text-success text-center mt-2">Question</h3>
+<form [formGroup]="QuestionData">
+    <ol>
+        <li >
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Enter Question" formControlName="Title">
+                <div class="row g-2"> 
+                    <div class="col-md-3">
+                        <label for="QuestionType" class="form-label">Choose Question Type</label>   
+                        <select id="QuestionType" formControlName="QuestionType" class="form-select">
+                            <option *ngFor="let quiz of quiztype" [value]="quiz">{{ quiz }}</option>
+                        </select>
+                    </div>
+                    <div class="row>">
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" placeholder="Option Text" formControlName="Text">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" formControlName="IsCorrect" id="isCorrect">
+                                <label class="form-check-label" for="isCorrect">
+                                    Is Correct
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" name="addOption" class="btn btn-primary me-2" (click)="addoption()">Add Option</button>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ol>
+<button class="btn btn-danger" name="addquestionbtn" (click)="addquestion()">Submit</button>
+<button class="btn btn-danger" name="addquestionbtn" (click)="donequestion()">Submit</button>
+</form>
+-->
+
+<h3 class="text-success text-center mt-2">Question</h3>
+<app-question-show [quizid]="quizid"></app-question-show>
+<form [formGroup]="QuestionData">
+  <ol>
+    <li>
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter Question"
+          formControlName="Title"/>
+        <div class="row g-2 mt-2">
+          <div class="col-md-3">
+            <label for="QuestionType" class="form-label">Choose Question Type</label>
+            <select id="QuestionType" formControlName="QuestionType" class="form-select">
+              <option *ngFor="let quiz of quiztype" [ngValue]="quiz">{{ quiz }}</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+
+  <button
+    type="button"
+    class="btn btn-danger me-2"
+    [disabled]="!addquestionbtn"
+    (click)="addquestion()"
+  >
+    Add Question
+  </button>
+  <button type="button" class="btn btn-danger" (click)="donequestion()">Done</button>
+</form>
+
+<!-- Options Form -->
+<form [formGroup]="options" class="mt-3">
+  <div class="row g-2">
+    <div class="col-md-3">
+      <input type="text" class="form-control" placeholder="Option Text" formControlName="Text" />
+    </div>
+    <div class="col-md-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" formControlName="IsCorrect" id="isCorrect" />
+        <label class="form-check-label" for="isCorrect">Is Correct</label>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <button type="button" class="btn btn-primary me-2" (click)="addoption()">Add Option</button>
+    </div>
+  </div>
+</form>
+
+<!-- Display Added Options -->
+<div *ngIf="question_options?.length" class="mt-3">
+  <h5>Added Options:</h5>
+  <ul>
+    <li *ngFor="let opt of question_options">
+      {{ opt.Text }} <span *ngIf="opt.IsCorrect">(Correct)</span>
+    </li>
+  </ul>
+</div>
+
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted"></span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+{{QuestionData.value.Title}}
+
+
+

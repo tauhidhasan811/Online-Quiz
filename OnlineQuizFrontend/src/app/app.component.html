@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li *ngIf="userId === null || userId === null "><a class="dropdown-item" routerLink="log-in" class="text-white" >Log In</a>Log In</li>
+        <li *ngIf="userId !== null && userId !=='0'"><a class="dropdown-item" routerLink="log-in" class="text-white" (click)="logOut()">Log Out</a>Log In</li>
+        <div >
+          <li  *ngIf="usertype !== 'Faculty'"class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Student
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li ><a class="dropdown-item" routerLink="student-create">Create</a></li>
+              <li *ngIf="userId !== null && userId !=='0'"><a class="dropdown-item" routerLink="student-show">Show</a></li>
+            </ul>
+          </li>
+          <li *ngIf="userId !== null && userId !=='0'" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Quiz
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li *ngIf="usertype === 'Faculty'"><a class="dropdown-item" routerLink="quiz-create">Create</a></li>
+              <li *ngIf="usertype === 'Faculty'"><a class="dropdown-item" routerLink="quiz-show">Show My Quizzes</a></li>
+              <li *ngIf="usertype === 'Student'"><a class="dropdown-item" routerLink="quiz-attempt/{{userId}}">Attempt</a></li>
+              <li><a class="dropdown-item" routerLink="quiz-show-student">All Quizes</a></li>
+            </ul>
+          </li>
+          <li *ngIf="usertype !== 'Student'" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Faculty
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" routerLink="faculty-create">Create</a></li>
+              <li *ngIf="usertype === 'Faculty'"><a class="dropdown-item" routerLink="faculty-show">Show</a></li>
+            </ul>
+          </li>
+
+          <!--
+          <li *ngIf="userId !== null && userId !=='0'" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Question
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" routerLink="question-create/1002">Create</a></li>
+              <li><a class="dropdown-item" routerLink="question-update">Update</a></li>
+              <li><a class="dropdown-item" routerLink="question-show">Show</a></li>
+            </ul>
+          </li>
+          -->
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet />
+</div>

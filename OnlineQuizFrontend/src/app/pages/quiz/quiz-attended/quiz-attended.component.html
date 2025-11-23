@@ -1,0 +1,19 @@
+<p>quiz-attended works!</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Quiz Id</th>
+      <th scope="col">Student Id</th>
+      <th scope="col">Score</th>
+      <th scope="col">Date Attended</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let qa of studentQuizes">
+      <td>{{qa.StartTime | date:'short'}}</td>
+      <td>{{qa.EndTime | date:'short'}}</td>
+      <td>{{qa.Mark}}</td>
+      <td>{{qa.QuizId}}</td>
+    </tr>
+  </tbody>

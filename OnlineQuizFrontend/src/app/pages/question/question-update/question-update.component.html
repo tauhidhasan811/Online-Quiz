@@ -1,0 +1,24 @@
+<p>question-update works!</p>
+<form [formGroup]="QuestionData" (ngSubmit)="updatequestion()">
+  <div class="mb-3">
+    <label for="Title" class="form-label">Question Title</label>
+    <input
+      type="text"
+      class="form-control"
+      id="Title"
+      formControlName="Title"
+      placeholder="Enter Question Title"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="QuestionType" class="form-label">Question Type</label>
+    <input
+      type="text"
+      class="form-control"
+      id="QuestionType"
+      formControlName="QuestionType"
+      placeholder="Enter Question Type"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Update Question</button>
+</form>
